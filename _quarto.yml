@@ -1,0 +1,21 @@
+project:
+  type: website
+  title: "Responsible AI"
+  output-dir: _site
+
+website:
+  repo-url: https://github.com/kelly-sovacool/responsible-ai
+  site-url: https://ccbr.github.io/responsible-ai
+  repo-actions: [edit, source, issue]
+  search:
+    location: navbar
+
+execute:
+  freeze: auto
+
+format:
+  fnl-html:
+    embed-resources: false
+    code-fold: true
+    toc: true
+    toc-title: "Table of Contents"
