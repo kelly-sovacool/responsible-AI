@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "index.html#bioinformatics-is-central-to-biomedical-research",
+    "href": "index.html#bioinformatics-is-central-to-biomedical-research",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Bioinformatics is central to biomedical research",
+    "text": "Bioinformatics is central to biomedical research\n\n\n\nAudience roles: bioinformatician, computational biologist, data analyst, research software engineer – anyone who writes code to analyze biological data.\n\ncode quality and correctness is essential for research. The reproducibility and replicability of data-intensive biological studies depend on the quality of the software used during data analysis."
+  },
+  {
+    "objectID": "index.html#generative-ai-has-transformed-software-development",
+    "href": "index.html#generative-ai-has-transformed-software-development",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Generative AI has transformed software development",
+    "text": "Generative AI has transformed software development\n\n\n\n\nImage: https://orkes.io/blog/agentic-ai-explained-agents-vs-workflows\n\n\nTODO very brief into to genAI. See recent BTEP presentations: - Practical introduction to GenAI - From Scripts to Skills: Using Generative AI Without Losing Scientific Control\ngenAI can be used to assist in a number of tasks, but it is most useful for bioinformaticians when assisting with writing code."
+  },
+  {
+    "objectID": "index.html#generative-ai-can-accelerate-bioinformatics",
+    "href": "index.html#generative-ai-can-accelerate-bioinformatics",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Generative AI can accelerate bioinformatics",
+    "text": "Generative AI can accelerate bioinformatics\n\n\n\n\n\n\nWe can write code faster than ever before\ngenerate new code, troubleshoot bugs, search the web, write tests, execute code\n\n\n\n\n\nWe can write bad code faster, too\nunreproducible work, incorrect methods, bugs, inefficiencies, unreadable code, lack of transparency, security vulnerabilities, malware, destructive agent actions\n\n\n\nAgentic GenAI tools have become especially useful for bioinformatics.\nBenefits and Risks of genAI use\n\nbenefits:\n\nWe can write code faster than ever before. can allow you to do more in the same amount of time.\n\nrisks:\n\nWe can write bad code faster, too. introduce bugs, wrong scientific results.\nthese risks are true whether a human is writing the code or a genAI agent is doing the writing, the genAI agent just scales it faster."
+  },
+  {
+    "objectID": "index.html#goals-for-this-talk",
+    "href": "index.html#goals-for-this-talk",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Goals for this talk",
+    "text": "Goals for this talk\n\nCover the NIH Responsible AI Policy.\nProvide practical tips for minimizing the risks of using genAI for bioinformatics.\nTake-home message: feel empowered to use genAI well and maintain high quality for your work."
+  },
+  {
+    "objectID": "index.html#nih-responsible-ai-policy",
+    "href": "index.html#nih-responsible-ai-policy",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "NIH Responsible AI Policy",
+    "text": "NIH Responsible AI Policy\n\n\nContent retrieved September 2026 from https://nih.sharepoint.com/sites/NIH-ai/SitePages/Responsible-AI.aspx\n\n\nPlease navigate to the Responsible AI policy page and read it in its entirety. The NIH Responsible AI policy is a helpful framework to start with. The policy is for the entire NIH, while the specifics for our individual roles are left to us to figure out."
+  },
+  {
+    "objectID": "index.html#nih-ai-use-checklist",
+    "href": "index.html#nih-ai-use-checklist",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "NIH AI Use Checklist",
+    "text": "NIH AI Use Checklist\n\n\n\nStop and Reconsider If:\n\n\n\nYou cannot verify the output\nYou cannot explain or justify the result\nThe task involves high-stakes decisions without expert review\n\n\n\n\n\n1. Confirm the Use is Appropriate\n\n\n\nCan you clearly state what you need, your audience (e.g., internal, external), and why AI helps?\nDo you have the time and expertise to review and adapt the output?\nAre you using a federally approved or authorized tool?\n\n\n\n\n\n2. Define the Human-AI Roles\n\n\n\nWhat task is the AI performing (e.g., drafting, summarizing, classifying)?\nWhat decisions will you make (vs. the AI)?\nAre you prepared to be accountable for how outputs are used?\n\n\n\n\n\n\n\n\n3. Project Data and Outputs\n\n\n\nDoes your input data include clinical, sensitive, identifiable, or restricted information?\nIs that data allowed in the tool you are using (e.g., consistent with consent, IRB decision, agreements)?\nAre you sharing only the minimum data necessary?\nDo the outputs create new sensitivity, intellectual property, or reuse risks?\n\n\n\n\n\n4. Verify Outputs\n\n\n\nHave you checked the facts, numbers, and citations?\nHave you tested outputs for errors, bias, or omissions?\nWould you be comfortable defending this output if questioned?\n\n\n\n\n\n5. Be Transparent About AI Use\n\n\n\nWill others know AI was used?\nHave you documented how outputs were generated (e.g., prompts used)?\nHave you avoided presenting AI output as authoritative without review?\n\n\n\n\n\n\nContent retrieved September 2026 from https://nih.sharepoint.com/sites/NIH-ai/SitePages/NIH-AI-Use-Checklist.aspx\n\n\nThe NIH Responsible AI guidance is a helpful framework to start with. The policy is for the entire NIH, while the specifics for our individual roles are left to us to figure out.\n\nCan human in the loop solve this problem?"
+  },
+  {
+    "objectID": "index.html#human-in-the-loop",
+    "href": "index.html#human-in-the-loop",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Human in the loop",
+    "text": "Human in the loop\n\n\nImage: https://uvik.net/blog/human-in-the-loop-ai/\n\n\nHumans review and validate the output of AI tools.\nAI is the “driver” of the loop Cartoon: avalanche of AI approval requests https://marketoonist.com/2026/03/human-in-the-loop.html\nThe problem with human-in-the-loop is the human is responding to the AI output, rather than being the driving force. Humans must remain in full control.\nAnother drawback is genAI agents can generate far more output than humans could ever possibly review in a reasonable amount of time."
+  },
+  {
+    "objectID": "index.html#human-in-driving-the-loop",
+    "href": "index.html#human-in-driving-the-loop",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Human in driving the loop",
+    "text": "Human in driving the loop\n\n\nA better way: humans judiciously use genAI when appropriate to support human-driven tasks.\n\n\n\n\nimage credit: Samarth Mathur\n\n\n\n\nHow can genAI assist us in bioinformatics tasks?"
+  },
+  {
+    "objectID": "index.html#bioinformaticians-design-develop-and-execute-code",
+    "href": "index.html#bioinformaticians-design-develop-and-execute-code",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Bioinformaticians design, develop, and execute code",
+    "text": "Bioinformaticians design, develop, and execute code\n\nDesign\n\nRead scientific papers, software documentation, and forums.\nPlan how to analyze data to answer a scientific question.\nDecide how new code will accomplish the analysis plan.\n\n\n\n\nDevelop\n\nWrite new scripts, packages, and command line tools to accomplish the analysis plan.\nWrite tests to validate the the code performs as expected.\nDocument how the code works and how it is used to produce results.\n\n\n\n\nExecute\n\nObtain the data from the study/experiment.\nInstall necessary software dependencies.\nRun the code on the data and evaluate the results.\n\n\n \nHow can genAI assist us in bioinformatics tasks?\nTreat GenAI like just another tool in your toolbox.\n\n\nHow can genAI assist us in bioinformatics tasks?\nTODO insert image/diagram showing tool box with various tools: IDE, terminal, languages, GitHub, GenAI agents"
+  },
+  {
+    "objectID": "index.html#practical-tips-for-responsible-genai-use",
+    "href": "index.html#practical-tips-for-responsible-genai-use",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Practical tips for responsible genAI use",
+    "text": "Practical tips for responsible genAI use\n\nFollow reproducible practices\nReview, test, and validate all code\nDocument everything"
+  },
+  {
+    "objectID": "index.html#reproducibility-is-essential-for-science",
+    "href": "index.html#reproducibility-is-essential-for-science",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Reproducibility is essential for science",
+    "text": "Reproducibility is essential for science\n\nYourself ➡️ Future you ➡️ Your collaborators ➡️ Peers in your field\n\n\nCan each of the above people run your code on the same dataset and get the same results?\nHow difficult would it be for each of them to reproduce your results?\n\n\nYou are your own most important collaborator"
+  },
+  {
+    "objectID": "index.html#reproducible-practices-for-responsible-ai-use",
+    "href": "index.html#reproducible-practices-for-responsible-ai-use",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Reproducible practices for responsible AI use",
+    "text": "Reproducible practices for responsible AI use\n\nOrganize your projects\n\nOne project per directory.\nKeep data, code, and outputs in separate subdirectories.\nData is read-only; outputs should only be written by the code.\n\n\n/data/$USER/projects\n├── my-rnaseq-project\n│   ├── AGENTS.md\n│   ├── data/\n│   ├── docs/\n│   ├── README.md\n│   ├── results/\n│   ├── scripts/\n│   └── tests/\n└── r-dataviz-explorer\n    ├── references/\n    ├── scripts/\n    ├── SKILL.md\n    └── tests/\n\nThese practices were already essential before genAI use became widespread. They are even more important now that genAI agents are frequently writing as much or even more code as human developers are.\n\n\nCredit to Samarth Mathur for these project examples."
+  },
+  {
+    "objectID": "index.html#reproducible-practices-for-responsible-ai-use-1",
+    "href": "index.html#reproducible-practices-for-responsible-ai-use-1",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Reproducible practices for responsible AI use",
+    "text": "Reproducible practices for responsible AI use\n\nOrganize your projects\n\nOne project per directory.\nKeep data, code, and outputs in separate subdirectories.\nData is read-only; outputs should only be written by the code.\n\nVersion control & backup with git & GitHub\n\nCreate a git repository for each project and upload it to GitHub.\nCommit meaningful code changes and sync with GitHub frequently.\n\n\n/data/$USER/projects\n├── my-rnaseq-project\n│   ├── AGENTS.md\n│   ├── data/\n│   ├── docs/\n│   ├── README.md\n│   ├── results/\n│   ├── scripts/\n│   └── tests/\n└── r-dataviz-explorer\n    ├── references/\n    ├── scripts/\n    ├── SKILL.md\n    └── tests/\n\nThese practices were already essential before genAI use became widespread. They are even more important now that genAI agents are frequently writing as much or even more code as human developers are.\n\n\nCredit to Samarth Mathur for these project examples."
+  },
+  {
+    "objectID": "index.html#reproducible-practices-for-responsible-ai-use-2",
+    "href": "index.html#reproducible-practices-for-responsible-ai-use-2",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Reproducible practices for responsible AI use",
+    "text": "Reproducible practices for responsible AI use\n\nOrganize your projects\n\nOne project per directory.\nKeep data, code, and outputs in separate subdirectories.\nData is read-only; outputs should only be written by the code.\n\nVersion control & backup with git & GitHub\n\nCreate a git repository for each project and upload it to GitHub.\nCommit meaningful code changes and sync with GitHub frequently.\n\n\n\n\nThese practices were already essential before genAI use became widespread. They are even more important now that genAI agents are frequently writing as much or even more code as human developers are.\nTODO show how/why this practice helps reduce risks. version control example of giving too much control to agent and it deletes important code.\n\n\nCredit to Samarth Mathur for these project examples."
+  },
+  {
+    "objectID": "index.html#review-test-and-validate",
+    "href": "index.html#review-test-and-validate",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Review, test, and validate",
+    "text": "Review, test, and validate\nFrom the NIH Responsible AI policy:\n\nDo not rely on the technology to be a software developer by proxy:\n\nAll well-written code must adhere to security design and ethical principles.\nAll code output needs to be reviewed for completeness, quality, efficiency, and, most of all, security.\nLeverage manual and automated validation tools and testing technologies to help ensure these factors.\nIf you cannot identify or understand what a piece of AI generated code does, you should not use it.\n\n\nAI outputs may be incomplete, inaccurate, biased, or fabricated.\n\nContent retrieved September 2026 from https://nih.sharepoint.com/sites/NIH-ai/SitePages/Responsible-AI.aspx"
+  },
+  {
+    "objectID": "index.html#review",
+    "href": "index.html#review",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Review",
+    "text": "Review\n\nRead the entire output of each genAI prompt and ensure you understand it.\nBe skeptical. Do not blindly trust that the output is complete or correct.\nTreat genAI like an untrustworthy stranger.\n\nDo not expose passwords or sensitive information."
+  },
+  {
+    "objectID": "index.html#review-1",
+    "href": "index.html#review-1",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Review",
+    "text": "Review\n\n\nIf you cannot identify or understand what a piece of AI generated code does, you should not use it.\n\n\nIf you do not understand a piece of AI-generated code, dig into the documentation and tutorials to learn how it works.\n\n\nCome across a package or function you’ve never seen? Find the documentation and learn how it works\n\nR: use ? and help(). Python: use help()\nDocs websites: https://rdrr.io/, https://docs.python.org/3/\n\nCome across a large chunk of code with many patterns you don’t understand?\n\nPrompt the genAI agent to explain it line-by-line. Verify the explanation by asking for sources and reading them.\n\nUse forums for in-depth help from people.\n\nStackOverflow, biostars, Posit forum, GitHub discussions\n\n\n\n\ntreat it as a learning opportunity"
+  },
+  {
+    "objectID": "index.html#testing-validadtion",
+    "href": "index.html#testing-validadtion",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Testing & validadtion",
+    "text": "Testing & validadtion\nWrite tests to make sure the code behaves as expected.\n\nUnit tests for individual functions on trivial inputs/data.\nIntegration tests run multiple functions or even an entire analysis on small & simulated datasets.\nR: testthat. Python: pytest, unittest\n\n\nmy-python-project\n├── data/\n├── src/mypackage\n│   └── main.py\n└── tests\n    └── test_main.py\n\n\n\n\n\nsrc/mypackage/main.py\n\ndef gc_content(seq):\n    \"\"\"Fraction of G/C bases in a DNA sequence.\"\"\"\n    seq = seq.upper()\n    return (seq.count(\"G\") + seq.count(\"C\")) / len(seq)\n\n \n\n\ntests/test_main.py\n\nfrom mypackage.main import gc_content\n\ndef test_gc_content():\n    assert gc_content(\"GGCC\") == 1.0\n    assert gc_content(\"ATAT\") == 0.0\n    assert gc_content(\"atgc\") == 0.5"
+  },
+  {
+    "objectID": "index.html#testing-validadtion-1",
+    "href": "index.html#testing-validadtion-1",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Testing & validadtion",
+    "text": "Testing & validadtion\n\nRun tests before accepting code.\n\n\nUse GitHub actions to automate.\n\n\ndetect problems and bugs sooner"
+  },
+  {
+    "objectID": "index.html#testing-validadtion-2",
+    "href": "index.html#testing-validadtion-2",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Testing & validadtion",
+    "text": "Testing & validadtion\n\nUse linters and code quality checks.\n\nEnsure code is formatted for readability, quality, and syntax is correct.\nSecurity and vulnerability scanning with GitHub Advanced Security.\nR: air. Python: ruff.\n\n\n\n\nUse pre-commit to run checks automatically on every change."
+  },
+  {
+    "objectID": "index.html#document-everything",
+    "href": "index.html#document-everything",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Document everything",
+    "text": "Document everything\nInline comments, function docstrings, vignettes, tutorials, getting started guide\n\n\n\n\nRscript\n\n#' Add together two numbers\n#'\n#' @param x A number\n#' @param y A number\n#' @returns The sum of `x` and `y`\n#' @examples\n#' add(1, 1)\n#' add(10, 1)\nadd &lt;- function(x, y) {\n  x + y\n}\n\n\n\n\n\n\nExample from https://r-pkgs.org/man.html"
+  },
+  {
+    "objectID": "index.html#document-how-you-are-using-genai",
+    "href": "index.html#document-how-you-are-using-genai",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Document how you are using GenAI",
+    "text": "Document how you are using GenAI\n\n\nfrom the very beginning of the project:\n\n\n\nCreate a document outlining how you will and will not use GenAI.\n\n\n\ndocs/ai-usage.md\n\n- Human responsibilities: Formulate the problem statement,\n  design the software,\n  validate the results, write the interpretation.\n- GenAI roles: assist in generating code, unit tests,\n  and function documentation.\n\n\n\n\n\nDisclose use of GenAI in commit messages, issue comments, and pull requests.\n\n\nDisclosing your use of GenAI is transparent and maintains trust and credibility in your work."
+  },
+  {
+    "objectID": "index.html#responsible-genai-use-to-maximize-benefits-minimize-risks",
+    "href": "index.html#responsible-genai-use-to-maximize-benefits-minimize-risks",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Responsible genAI use to maximize benefits, minimize risks",
+    "text": "Responsible genAI use to maximize benefits, minimize risks\n\n\n\n\n\n\n\nTip\nRisks minimized\n\n\n\n\nFollow reproducible practices\nunreproducible work, destructive agent actions\n\n\nReview, test, and validate all code\nincorrect methods, bugs, inefficiencies, malware\n\n\nDocument everything\nunreadable code, unusable code, lack of transparency"
+  },
+  {
+    "objectID": "index.html#final-reminders",
+    "href": "index.html#final-reminders",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Final reminders",
+    "text": "Final reminders\n\nGenerative AI tools use statistical models to produce outputs that look like a plausible response to a prompt. 🦜\n\nView GenAI as another tool in your toolbox alongside IDEs, HPCs, and other software.\nInterpreting the meaning of AI outputs is your responsibility. Treat it as a learning experience!\n\nAI tools can accelerate bioinformatics. 🚀\n\nJust make sure you’re facing the direction you want to go!\n\n\n\nTODO image"
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Responsible AI Use, Validation, and Reproducibility in Bioinformatics",
+    "section": "Resources",
+    "text": "Resources\n\nRelated talks:\n\nPractical introduction to GenAI - BTEP\nFrom Scripts to Skills: Using Generative AI Without Losing Scientific Control - BTEP\nOrganizing and documenting NGS pipelines on GitHub - ABCS Programmer’s Corner\n\nNIH Guidelines for Responsible AI\nTutorial: GitHub Copilot in VS Code\nGitHub Copilot in VS Code cheat sheet\n\n\n\nTODO link to github for nih"
+  }
+]
